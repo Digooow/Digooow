@@ -59,17 +59,9 @@
 ## 🚀 Meus Projetos
 
 <!-- SHOWCASE-START -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-  <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2" style="width: 100%;" />
-  </a>
-  <a href="https://github.com/Digooow/LeetCode">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" style="width: 100%;" />
-  </a>
-  <a href="https://github.com/Digooow/Desenvolvimento-Web">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2" style="width: 100%;" />
-  </a>
-</div>
+<a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2" width="49%" /></a> <a href="https://github.com/Digooow/LeetCode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" width="49%" /></a>
+
+<a href="https://github.com/Digooow/Desenvolvimento-Web"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2" width="49%" /></a>
 
 <div style="margin-bottom: 30px;"></div>
 <!-- SHOWCASE-END -->
