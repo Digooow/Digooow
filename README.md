@@ -57,24 +57,19 @@
 ---
 
 <!-- SHOWCASE-START -->
-## 🚀 My Projects
-
-<div style="display: flex; flex-wrap: wrap; justify-content: left; gap: 4px">
-
-<a href="https://github.com/Digooow/LeetCode">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=default&show_owner=true&description_lines_count=2&hide=&hide_language=false&show_icons=true&show_stars=false&show_forks=false&show_topics=false" />
-</a>
-
-<a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=default&show_owner=true&description_lines_count=2&hide=&hide_language=false&show_icons=true&show_stars=false&show_forks=false&show_topics=false" />
-</a>
-
+<div align="left" style="margin-bottom: 20px;">
+  <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2" />
+  </a>
 </div>
 
+<div align="left" style="">
+  <a href="https://github.com/Digooow/LeetCode">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" />
+  </a>
+</div>
 
----
-*Updated on June 19, 2026*
-
+<div style="clear: both; margin-bottom: 40px;"></div>
 <!-- SHOWCASE-END -->
 
 ---
