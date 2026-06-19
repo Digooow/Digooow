@@ -56,6 +56,8 @@
 
 ---
 
+## 🚀 Meus Projetos
+
 <!-- SHOWCASE-START -->
 <div align="left" style="margin-bottom: 20px;">
   <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
