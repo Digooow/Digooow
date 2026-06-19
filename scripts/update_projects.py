@@ -31,6 +31,7 @@ def generate_cards(repos):
     total = len(repos)
     for i, repo in enumerate(repos):
         card_url = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo}&theme=dark&show_owner=true&description_lines_count=2"
+        # Adiciona margem inferior em todos, exceto no último
         margin_bottom = "margin-bottom: 20px;" if i < total - 1 else ""
         card_html = f'''<div align="left" style="{margin_bottom}">
   <a href="https://github.com/{USERNAME}/{repo}">
@@ -39,6 +40,7 @@ def generate_cards(repos):
 </div>'''
         cards.append(card_html)
 
+    # Junta com duas quebras de linha e adiciona margem inferior extra
     return "\n\n".join(cards) + '\n\n<div style="clear: both; margin-bottom: 40px;"></div>'
 
 def update_readme(cards_html):
