@@ -59,19 +59,18 @@
 ## 🚀 Meus Projetos
 
 <!-- SHOWCASE-START -->
-<div align="left" style="margin-bottom: 20px;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;"><div style="flex: 0 0 auto;">
   <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2" />
   </a>
 </div>
-
-<div align="left" style="">
+<div style="flex: 0 0 auto;">
   <a href="https://github.com/Digooow/LeetCode">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" />
   </a>
-</div>
+</div></div>
 
-<div style="clear: both; margin-bottom: 40px;"></div>
+<div style="clear: both; margin-bottom: 30px;"></div>
 <!-- SHOWCASE-END -->
 
 ---
