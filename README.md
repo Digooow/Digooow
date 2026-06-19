@@ -56,6 +56,11 @@
 
 ---
 
+<!-- SHOWCASE-START -->
+<!-- SHOWCASE-END -->
+
+---
+
 ## 📊 Estatísticas do GitHub
 
 <p align="left">
