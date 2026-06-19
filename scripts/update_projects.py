@@ -1,7 +1,6 @@
 import os
 import re
 import requests
-from datetime import datetime
 
 USERNAME = "Digooow"
 TOPIC = "showcase"
@@ -12,37 +11,25 @@ headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
 def get_repos_with_topic():
     url = f"https://api.github.com/search/repositories?q=user:{USERNAME}+topic:{TOPIC}"
-    print(f"🔍 Buscando repositórios com tópico '{TOPIC}'...")
     response = requests.get(url, headers=headers)
-    print(f"📡 Status: {response.status_code}")
     if response.status_code != 200:
-        print(f"❌ Erro: {response.text}")
         return []
     data = response.json()
-    repos = [repo["name"] for repo in data.get("items", [])]
-    print(f"📦 Encontrados: {repos}")
-    return repos
+    return [repo["name"] for repo in data.get("items", [])]
 
 def generate_cards(repos):
     if not repos:
-        return "<!-- Nenhum projeto encontrado com o tópico 'showcase' -->"
+        return "<!-- Nenhum projeto encontrado -->"
 
     # Grid com 2 colunas
-    container_start = '<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">'
-    container_end = '</div>'
-
-    cards = []
+    html = '<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">\n'
     for repo in repos:
         card_url = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo}&theme=dark&show_owner=true&description_lines_count=2"
-        card_html = f'''<div>
-  <a href="https://github.com/{USERNAME}/{repo}">
-    <img src="{card_url}" style="width: 100%;" />
-  </a>
-</div>'''
-        cards.append(card_html)
-
-    # Junta todos os cards e adiciona margem inferior
-    return container_start + "\n".join(cards) + container_end + '\n\n<div style="margin-bottom: 30px;"></div>'
+        html += f'  <a href="https://github.com/{USERNAME}/{repo}">\n'
+        html += f'    <img src="{card_url}" style="width: 100%;" />\n'
+        html += f'  </a>\n'
+    html += '</div>\n\n<div style="margin-bottom: 30px;"></div>'
+    return html
 
 def update_readme(cards_html):
     with open(README_PATH, "r", encoding="utf-8") as f:
@@ -55,7 +42,7 @@ def update_readme(cards_html):
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-    print("✅ README atualizado com sucesso!")
+    print("✅ README atualizado")
 
 if __name__ == "__main__":
     repos = get_repos_with_topic()
