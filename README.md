@@ -59,7 +59,17 @@
 <!-- SHOWCASE-START -->
 ## 🚀 My Projects
 
-No projects found.
+<div style="display: flex; flex-wrap: wrap; justify-content: left; gap: 4px">
+
+<a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=default&show_owner=true&description_lines_count=2&hide=&hide_language=false&show_icons=true&show_stars=false&show_forks=false&show_topics=false" />
+</a>
+
+</div>
+
+
+---
+*Updated on June 19, 2026*
 
 <!-- SHOWCASE-END -->
 
