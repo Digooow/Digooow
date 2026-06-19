@@ -49,6 +49,9 @@
 ## 🏅 Minhas Certificações (Credly)
 
 <!--START_SECTION:badges-->
+[![HTML Essentials](https://images.credly.com/size/80x80/images/b1c17d0c-e76b-45fc-9b28-87b01ae1caf3/blob)](https://www.credly.com/badges/84528667-914b-4fb0-85dd-b6221164500d)
+[![Cisco Networking Academy Learn-A-Thon 2026](https://images.credly.com/size/80x80/images/7bf55491-f0df-488f-84bf-4d51ada45316/blob)](https://www.credly.com/badges/8ad6ed61-1989-440c-be4b-b4035cbef9f0)
+[![Introduction to Cybersecurity](https://images.credly.com/size/80x80/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png)](https://www.credly.com/badges/20513698-2658-4c08-a75c-37949de58a86)
 <!--END_SECTION:badges-->
 
 ---
