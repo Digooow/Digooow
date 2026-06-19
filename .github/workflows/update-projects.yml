@@ -1,0 +1,27 @@
+name: Update README with Featured Repositories
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:      
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README with Repository Display
+        uses: sansk/github-repo-display@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.repository_owner }}
+          topic: 'showcase'          
+          format: 'card'             
+          max_repos: 6               
