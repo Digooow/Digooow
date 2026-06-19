@@ -22,6 +22,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
-          topic: 'showcase'          
-          format: 'card'             
-          max_repos: 6               
+          topic: 'showcase'
+          format: 'table'              
+          max_repos: 6
+          show_description: true       
+          show_language: true          
+          show_stats: false            
