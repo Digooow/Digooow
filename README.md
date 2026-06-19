@@ -59,23 +59,23 @@
 ## 🚀 Meus Projetos
 
 <!-- SHOWCASE-START -->
-<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;"><div style="flex: 0 0 auto;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;"><div>
   <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2" style="width: 100%;" />
   </a>
 </div>
-<div style="flex: 0 0 auto;">
+<div>
   <a href="https://github.com/Digooow/LeetCode">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" style="width: 100%;" />
   </a>
 </div>
-<div style="flex: 0 0 auto;">
+<div>
   <a href="https://github.com/Digooow/Desenvolvimento-Web">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2" style="width: 100%;" />
   </a>
 </div></div>
 
-<div style="clear: both; margin-bottom: 30px;"></div>
+<div style="margin-bottom: 30px;"></div>
 <!-- SHOWCASE-END -->
 
 ---
