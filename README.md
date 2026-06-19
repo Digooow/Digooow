@@ -68,6 +68,11 @@
   <a href="https://github.com/Digooow/LeetCode">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" />
   </a>
+</div>
+<div style="flex: 0 0 auto;">
+  <a href="https://github.com/Digooow/Desenvolvimento-Web">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2" />
+  </a>
 </div></div>
 
 <div style="clear: both; margin-bottom: 30px;"></div>
