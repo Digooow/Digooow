@@ -57,6 +57,10 @@
 ---
 
 <!-- SHOWCASE-START -->
+## 🚀 My Projects
+
+No projects found.
+
 <!-- SHOWCASE-END -->
 
 ---
