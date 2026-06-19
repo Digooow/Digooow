@@ -34,7 +34,7 @@ def generate_cards(repos):
         cards.append(card_html)
 
 
-    return "\n".join(cards) + '\n\n<div style="clear: both;"></div>'
+    return "\n".join(cards) + '\n\n<div style="clear: both; margin-bottom: 30px;"></div>'
 
 
 def update_readme(cards_html):
