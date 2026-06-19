@@ -57,7 +57,7 @@
 ---
 
 <!-- SHOWCASE-START -->
-## 🚀 Meus Projetos
+## 🚀 My Projects
 
 <div style="display: flex; flex-wrap: wrap; justify-content: left; gap: 4px">
 
