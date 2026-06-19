@@ -1,19 +1,25 @@
-<h1 align="left">Olá!👋Eu sou o Digooow!</h1>
+<h1 align="left">Olá! 👋 Eu sou o Digooow!</h1>
 <h3 align="left">Rodrigo da Cruz Godinho</h3>
-<h3 align="left">Desenvolvedor FullStack buscando sempre se tornar melhor!</h3>
+<h3 align="left">Desenvolvedor FullStack | Sempre em evolução 🚀</h3>
 
 <p align="left">
-📍 Minha trajetória até aqui:
-
-- 🎓 **2026 - 2026:** Curso de qualificação livre - Desenvolvedor de Sistemas – SENAC Joinville
-- 💻 **2026 - 2026:** Curso de qualificação livre - Desenvolvimento FullStack Digital Inovation One
-- 🧩 **2026 - 2026:** Curso de qualificação livre - Desenvolvimento Web com IA - SENAC Joinville
-- 🏫 **2026 - 2026:** Introdução à CiberSegurança - CISCO
-- 🚀 **2026 - 2026:** HTML Essentials - CISCO
+  <img src="https://komarev.com/ghpvc/?username=digooow&label=Visitantes&color=0e75b6&style=flat" alt="digooow" />
 </p>
 
+---
 
-<h3 align="left">Conecte-se comigo:</h3>
+## 📌 Minha trajetória até aqui
+
+> - 🎓 **2026:** Curso de qualificação livre – Desenvolvedor de Sistemas – SENAC Joinville
+> - 💻 **2026:** Desenvolvimento FullStack – Digital Innovation One
+> - 🧩 **2026:** Desenvolvimento Web com IA – SENAC Joinville
+> - 🔒 **2026:** Introdução à Cibersegurança – CISCO
+> - 🌐 **2026:** HTML Essentials – CISCO
+
+---
+
+## 🌐 Conecte-se comigo
+
 <p align="left">
   <a href="https://linkedin.com/in/digooow" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -23,7 +29,10 @@
   </a>
 </p>
 
-<h3 align="left">Linguagens e Ferramentas:</h3>
+---
+
+## 🛠️ Linguagens e Ferramentas
+
 <p align="left">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
@@ -35,14 +44,22 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
+---
+
+## 🏅 Minhas Certificações (Credly)
+
 <!--START_SECTION:badges-->
-[![HTML Essentials](https://images.credly.com/size/80x80/images/b1c17d0c-e76b-45fc-9b28-87b01ae1caf3/blob)](https://www.credly.com/badges/84528667-914b-4fb0-85dd-b6221164500d)
-[![Cisco Networking Academy Learn-A-Thon 2026](https://images.credly.com/size/80x80/images/7bf55491-f0df-488f-84bf-4d51ada45316/blob)](https://www.credly.com/badges/8ad6ed61-1989-440c-be4b-b4035cbef9f0)
-[![Introduction to Cybersecurity](https://images.credly.com/size/80x80/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png)](https://www.credly.com/badges/20513698-2658-4c08-a75c-37949de58a86)
 <!--END_SECTION:badges-->
 
+---
+
+## 📊 Estatísticas do GitHub
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=digooow&show_icons=true&locale=en" alt="digooow" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=digooow&show_icons=true&locale=en&layout=compact" alt="digooow" />
+  <img src="https://github-readme-stats.vercel.app/api?username=digooow&show_icons=true&theme=dark&locale=pt-br" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=digooow&layout=compact&theme=dark&locale=pt-br" alt="Top Langs" />
 </p>
+
+---
+
+⭐ *Obrigado por visitar meu perfil! Volte sempre!* 😊
