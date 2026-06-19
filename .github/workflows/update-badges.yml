@@ -14,5 +14,5 @@ jobs:
       - name: Update Badges
         uses: pemtajo/badge-readme@main
         with:
-          CREDLY_USER: https://www.credly.com/users/digooow
+          CREDLY_USER: digooow
           NUMBER_LAST_BADGES: 0 
