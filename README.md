@@ -68,7 +68,7 @@
 </a>
 
 
-<div style="clear: both;"></div>
+<div style="clear: both; margin-bottom: 30px;"></div>
 <!-- SHOWCASE-END -->
 
 ---
