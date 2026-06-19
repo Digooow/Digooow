@@ -27,21 +27,22 @@ def generate_cards(repos):
     if not repos:
         return "<!-- Nenhum projeto encontrado com o tópico 'showcase' -->"
 
+    # Container flexível: lado a lado com quebra de linha e espaçamento
+    container_start = '<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">'
+    container_end = '</div>'
+
     cards = []
-    total = len(repos)
-    for i, repo in enumerate(repos):
+    for repo in repos:
         card_url = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo}&theme=dark&show_owner=true&description_lines_count=2"
-        # Adiciona margem inferior em todos, exceto no último
-        margin_bottom = "margin-bottom: 20px;" if i < total - 1 else ""
-        card_html = f'''<div align="left" style="{margin_bottom}">
+        card_html = f'''<div style="flex: 0 0 auto;">
   <a href="https://github.com/{USERNAME}/{repo}">
     <img src="{card_url}" />
   </a>
 </div>'''
         cards.append(card_html)
 
-    # Junta com duas quebras de linha e adiciona margem inferior extra
-    return "\n\n".join(cards) + '\n\n<div style="clear: both; margin-bottom: 40px;"></div>'
+    # Junta todos os cards dentro do container e adiciona uma margem inferior
+    return container_start + "\n".join(cards) + container_end + '\n\n<div style="clear: both; margin-bottom: 30px;"></div>'
 
 def update_readme(cards_html):
     with open(README_PATH, "r", encoding="utf-8") as f:
