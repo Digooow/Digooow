@@ -21,15 +21,23 @@ def generate_cards(repos):
     if not repos:
         return "<!-- Nenhum projeto encontrado -->"
 
-    # Grid com 2 colunas
-    html = '<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">\n'
-    for repo in repos:
+    # Gera imagens lado a lado usando Markdown
+    lines = []
+    for i, repo in enumerate(repos):
         card_url = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo}&theme=dark&show_owner=true&description_lines_count=2"
-        html += f'  <a href="https://github.com/{USERNAME}/{repo}">\n'
-        html += f'    <img src="{card_url}" style="width: 100%;" />\n'
-        html += f'  </a>\n'
-    html += '</div>\n\n<div style="margin-bottom: 30px;"></div>'
-    return html
+        # Cria a imagem e o link
+        img = f'<a href="https://github.com/{USERNAME}/{repo}"><img src="{card_url}" width="49%" /></a>'
+        lines.append(img)
+
+    # Junta com quebras de linha a cada 2 imagens
+    result = []
+    for i in range(0, len(lines), 2):
+        # Pega duas imagens e coloca na mesma linha
+        pair = lines[i:i+2]
+        result.append(' '.join(pair))
+    
+    # Junta tudo com quebras de linha entre os pares
+    return '\n\n'.join(result) + '\n\n<div style="margin-bottom: 30px;"></div>'
 
 def update_readme(cards_html):
     with open(README_PATH, "r", encoding="utf-8") as f:
@@ -42,7 +50,7 @@ def update_readme(cards_html):
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-    print("✅ README atualizado")
+    print("✅ README atualizado com sucesso!")
 
 if __name__ == "__main__":
     repos = get_repos_with_topic()
