@@ -75,7 +75,7 @@
     <img src="https://github-readme-stats.vercel.app/api?username=digooow&show_icons=true&theme=dark&locale=pt-br" width="49%" />
   </a>
   <a href="https://github.com/Digooow">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=digooow&layout=compact&theme=dark&locale=pt-br" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=digooow&layout=compact&theme=dark&locale=pt-br" width="44%" />
   </a>
 </p>
 
