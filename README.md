@@ -82,19 +82,28 @@
 ## 🚀 Meus Projetos
 
 <!-- SHOWCASE-START -->
-<a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782067593" />
-</a>
-
-<a href="https://github.com/Digooow/LeetCode">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782067593" />
-</a>
-
-<a href="https://github.com/Digooow/Desenvolvimento-Web">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782067593" />
-</a>
-
-
+<table style="border: none; width: 100%;">
+  <tr>
+    <td style="border: none; width: 50%; padding: 5px; vertical-align: top;">
+      <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
+        <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782067815" style="max-width: 100%;" />
+      </a>
+    </td>
+    <td style="border: none; width: 50%; padding: 5px; vertical-align: top;">
+      <a href="https://github.com/Digooow/Desenvolvimento-Web">
+        <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782067815" style="max-width: 100%;" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; width: 50%; padding: 5px; vertical-align: top;">
+      <a href="https://github.com/Digooow/LeetCode">
+        <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782067815" style="max-width: 100%;" />
+      </a>
+    </td>
+    <td style="border: none; width: 50%;"></td>
+  </tr>
+</table>
 <div style="clear: both; margin-bottom: 30px;"></div>
 <!-- SHOWCASE-END -->
 
