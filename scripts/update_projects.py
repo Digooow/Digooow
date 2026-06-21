@@ -27,38 +27,20 @@ def get_repos_with_topic():
         })
     return repos
 
-def generate_cards(repos_data):
-    if not repos_data:
+def generate_cards(repos):
+    if not repos:
         return "<!-- Nenhum projeto encontrado com o tópico 'showcase' -->"
 
     cache_buster = int(time.time())
-    cards_html = []
 
-    for repo in repos_data:
+    cards = []
+    for repo in repos:
         name = repo["name"]
-        card_url = (
-            f"https://github-readme-stats.vercel.app/api/pin/"
-            f"?username={USERNAME}&repo={name}&theme=dark&show_owner=true"
-            f"&description_lines_count=2&_={cache_buster}"
-        )
+        card_url = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={name}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
+        card_html = f'<a href="https://github.com/{USERNAME}/{repo}">\n  <img align="left" src="{card_url}" />\n</a>\n'
+        cards.append(card_html)
 
-
-        card = f'''
-<div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
-  <a href="https://github.com/{USERNAME}/{name}">
-    <img src="{card_url}" style="width: 49%;" />
-  </a>
-</div>'''
-        cards_html.append(card)
-
-
-    container = f'''
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  {''.join(cards_html)}
-</div>
-<div style="clear: both; margin-bottom: 30px;"></div>'''
-
-    return container
+    return "\n".join(cards) + '\n\n<div style="clear: both; margin-bottom: 30px;"></div>'
 
 def update_readme(cards_html):
     with open(README_PATH, "r", encoding="utf-8") as f:
