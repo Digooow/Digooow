@@ -2,7 +2,6 @@ import os
 import re
 import requests
 import time
-from datetime import datetime
 
 USERNAME = "Digooow"
 TOPIC = "showcase"
@@ -14,7 +13,6 @@ if not TOKEN:
     print("⚠️  GITHUB_TOKEN não definido. Limite de requisições reduzido.")
 
 def get_repos_with_topic():
-    """Busca repositórios com o tópico 'showcase' e retorna lista com nome e descrição."""
     url = f"https://api.github.com/search/repositories?q=user:{USERNAME}+topic:{TOPIC}&sort=updated&order=desc"
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -30,19 +28,14 @@ def get_repos_with_topic():
     return repos
 
 def generate_cards(repos_data):
-    """Gera os cards com imagem e descrição textual."""
     if not repos_data:
         return "<!-- Nenhum projeto encontrado com o tópico 'showcase' -->"
 
-
     cache_buster = int(time.time())
+    cards_html = []
 
-    cards = []
     for repo in repos_data:
         name = repo["name"]
-        desc = repo["description"]
-
-
         card_url = (
             f"https://github-readme-stats.vercel.app/api/pin/"
             f"?username={USERNAME}&repo={name}&theme=dark&show_owner=true"
@@ -50,27 +43,22 @@ def generate_cards(repos_data):
         )
 
 
-        card_html = f'''
+        card = f'''
 <div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
   <a href="https://github.com/{USERNAME}/{name}">
     <img src="{card_url}" style="width: 49%;" />
   </a>
-'''
-        if desc:
-            card_html += f'  <p style="font-size: 0.9em; margin: 5px 0 0 0; color: #b0b0b0;">{desc}</p>'
-        card_html += '</div>'
-
-        cards.append(card_html)
+</div>'''
+        cards_html.append(card)
 
 
-    grouped = []
-    for i in range(0, len(cards), 2):
-        pair = cards[i]
-        if i+1 < len(cards):
-            pair += " " + cards[i+1]
-        grouped.append(pair)
+    container = f'''
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  {''.join(cards_html)}
+</div>
+<div style="clear: both; margin-bottom: 30px;"></div>'''
 
-    return "\n".join(grouped) + '\n\n<div style="clear: both; margin-bottom: 30px;"></div>'
+    return container
 
 def update_readme(cards_html):
     with open(README_PATH, "r", encoding="utf-8") as f:
