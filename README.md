@@ -83,12 +83,12 @@
 
 <!-- SHOWCASE-START -->
   <tr>
-    <td><a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782074677" /></a></td>
-    <td><a href="https://github.com/Digooow/Desenvolvimento-Web"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782074677" /></a></td>
+    <td><a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782074784" /></a></td>
+    <td><a href="https://github.com/Digooow/Desenvolvimento-Web"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782074784" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Digooow/LeetCode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782074677" /></a></td>
-    <td></td>
+    <td><a href="https://github.com/Digooow/LeetCode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782074784" /></a></td>
+    <td><a href="https://github.com/Digooow/Atividades-Senac-Joinville"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Atividades-Senac-Joinville&theme=dark&show_owner=true&description_lines_count=2&_=1782074784" /></a></td>
   </tr>
 <!-- SHOWCASE-END -->
 
