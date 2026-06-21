@@ -82,28 +82,19 @@
 ## 🚀 Meus Projetos
 
 <!-- SHOWCASE-START -->
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td style="border: none; padding: 5px; width: 50%; vertical-align: top;">
-      <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782067987" style="max-width: 100%; height: auto; display: block;" />
-      </a>
-    </td>
-    <td style="border: none; padding: 5px; width: 50%; vertical-align: top;">
-      <a href="https://github.com/Digooow/Desenvolvimento-Web">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782067987" style="max-width: 100%; height: auto; display: block;" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td style="border: none; padding: 5px; width: 50%; vertical-align: top;">
-      <a href="https://github.com/Digooow/LeetCode">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782067987" style="max-width: 100%; height: auto; display: block;" />
-      </a>
-    </td>
-    <td style="border: none; padding: 5px; width: 50%;"></td>
-  </tr>
-</table>
+<a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782068298" />
+</a>
+
+<a href="https://github.com/Digooow/Desenvolvimento-Web">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782068298" />
+</a>
+
+<a href="https://github.com/Digooow/LeetCode">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782068298" />
+</a>
+
+
 <div style="clear: both; margin-bottom: 30px;"></div>
 <!-- SHOWCASE-END -->
 
