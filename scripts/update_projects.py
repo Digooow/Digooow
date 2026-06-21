@@ -19,10 +19,7 @@ def get_repos_with_topic():
         print(f"Erro ao buscar repositórios: {response.status_code}")
         return []
     data = response.json()
-    repos = []
-    for item in data.get("items", []):
-        repos.append(item["name"])
-    return repos
+    return [repo["name"] for repo in data.get("items", [])]
 
 def generate_cards(repos):
     if not repos:
@@ -31,33 +28,29 @@ def generate_cards(repos):
     cache_buster = int(time.time())
 
 
-    table_html = '<table style="border: none; width: 100%;">\n'
-
+    table_html = '<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%;">\n'
 
     for i in range(0, len(repos), 2):
         table_html += '  <tr>\n'
 
-
         repo1 = repos[i]
         card_url1 = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo1}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
-        table_html += f'''    <td style="border: none; width: 50%; padding: 5px; vertical-align: top;">
+        table_html += f'''    <td style="border: none; padding: 5px; width: 50%; vertical-align: top;">
       <a href="https://github.com/{USERNAME}/{repo1}">
-        <img align="left" src="{card_url1}" style="max-width: 100%;" />
+        <img src="{card_url1}" style="max-width: 100%; height: auto; display: block;" />
       </a>
     </td>\n'''
 
-
-        if i + 1 < len(repos):
-            repo2 = repos[i + 1]
+        if i+1 < len(repos):
+            repo2 = repos[i+1]
             card_url2 = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo2}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
-            table_html += f'''    <td style="border: none; width: 50%; padding: 5px; vertical-align: top;">
+            table_html += f'''    <td style="border: none; padding: 5px; width: 50%; vertical-align: top;">
       <a href="https://github.com/{USERNAME}/{repo2}">
-        <img align="left" src="{card_url2}" style="max-width: 100%;" />
+        <img src="{card_url2}" style="max-width: 100%; height: auto; display: block;" />
       </a>
     </td>\n'''
         else:
-            table_html += '    <td style="border: none; width: 50%;"></td>\n'
-
+            table_html += '    <td style="border: none; padding: 5px; width: 50%;"></td>\n'
         table_html += '  </tr>\n'
 
     table_html += '</table>\n<div style="clear: both; margin-bottom: 30px;"></div>'
