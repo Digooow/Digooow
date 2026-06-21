@@ -82,16 +82,16 @@
 ## 🚀 Meus Projetos
 
 <!-- SHOWCASE-START -->
-<a href="https://github.com/Digooow/{'name': 'Projeto-Integrador-SENAC-JOINVILLE', 'description': 'Aplicação desktop C# WPF SOLID MVVM POO'}">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782067301" />
+<a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782067593" />
 </a>
 
-<a href="https://github.com/Digooow/{'name': 'Desenvolvimento-Web', 'description': 'Sem Criatividade parça =O'}">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782067301" />
+<a href="https://github.com/Digooow/LeetCode">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782067593" />
 </a>
 
-<a href="https://github.com/Digooow/{'name': 'LeetCode', 'description': '=O sem criatividade'}">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782067301" />
+<a href="https://github.com/Digooow/Desenvolvimento-Web">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782067593" />
 </a>
 
 
