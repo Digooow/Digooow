@@ -1,6 +1,6 @@
 <h1 align="left">Olá! 👋 Eu sou o Digooow!</h1>
 <h3 align="left">Rodrigo da Cruz Godinho</h3>
-<h3 align="left">Desenvolvedor FullStack | Sempre em evolução 🚀</h3>
+<h3 align="left">Desenvolvedor FullStack | .NET • WPF • C# | Sempre em evolução 🚀</h3>
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=digooow&label=Visitantes&color=0e75b6&style=flat" alt="digooow" />
@@ -33,16 +33,39 @@
 
 ## 🛠️ Linguagens e Ferramentas
 
-<p align="left">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+<table>
+  <tr>
+    <td align="left">🎯 <strong>Backend & Lógica</strong></td>
+    <td align="left">
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+      <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" />
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left">🌐 <strong>Frontend Desktop & Web</strong></td>
+    <td align="left">
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/WPF-5C2D91?style=for-the-badge&logo=.net&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left">🗄️ <strong>Banco de Dados Relacional</strong></td>
+    <td align="left">
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left">🛠️ <strong>Ferramentas & Versionamento</strong></td>
+    <td align="left">
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/VisualStudio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
+      <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 ---
 
