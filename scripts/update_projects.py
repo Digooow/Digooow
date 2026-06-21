@@ -53,7 +53,7 @@ def generate_cards(repos_data):
         card_html = f'''
 <div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
   <a href="https://github.com/{USERNAME}/{name}">
-    <img src="{card_url}" style="width: 100%;" />
+    <img src="{card_url}" style="width: 49%;" />
   </a>
 '''
         if desc:
