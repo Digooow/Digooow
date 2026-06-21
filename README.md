@@ -82,11 +82,25 @@
 ## 🚀 Meus Projetos
 
 <!-- SHOWCASE-START -->
-<a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2" width="49%" /></a> <a href="https://github.com/Digooow/LeetCode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" width="49%" /></a>
 
-<a href="https://github.com/Digooow/Desenvolvimento-Web"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2" width="49%" /></a>
+<div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
+  <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782066627" style="width: 100%;" />
+  </a>
+  <p style="font-size: 0.9em; margin: 5px 0 0 0; color: #b0b0b0;">Aplicação desktop C# WPF SOLID MVVM POO</p></div> 
+<div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
+  <a href="https://github.com/Digooow/Desenvolvimento-Web">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782066627" style="width: 100%;" />
+  </a>
+  <p style="font-size: 0.9em; margin: 5px 0 0 0; color: #b0b0b0;">Sem Criatividade parça =O</p></div>
 
-<div style="margin-bottom: 30px;"></div>
+<div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
+  <a href="https://github.com/Digooow/LeetCode">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782066627" style="width: 100%;" />
+  </a>
+  <p style="font-size: 0.9em; margin: 5px 0 0 0; color: #b0b0b0;">=O sem criatividade</p></div>
+
+<div style="clear: both; margin-bottom: 30px;"></div>
 <!-- SHOWCASE-END -->
 
 ---
