@@ -82,25 +82,19 @@
 ## 🚀 Meus Projetos
 
 <!-- SHOWCASE-START -->
+<a href="https://github.com/Digooow/{'name': 'Projeto-Integrador-SENAC-JOINVILLE', 'description': 'Aplicação desktop C# WPF SOLID MVVM POO'}">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782067301" />
+</a>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  
-<div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
-  <a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782067088" style="width: 49%;" />
-  </a>
-</div>
-<div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
-  <a href="https://github.com/Digooow/Desenvolvimento-Web">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782067088" style="width: 49%;" />
-  </a>
-</div>
-<div style="display: inline-block; width: 49%; margin: 5px 0; vertical-align: top;">
-  <a href="https://github.com/Digooow/LeetCode">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782067088" style="width: 49%;" />
-  </a>
-</div>
-</div>
+<a href="https://github.com/Digooow/{'name': 'Desenvolvimento-Web', 'description': 'Sem Criatividade parça =O'}">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782067301" />
+</a>
+
+<a href="https://github.com/Digooow/{'name': 'LeetCode', 'description': '=O sem criatividade'}">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782067301" />
+</a>
+
+
 <div style="clear: both; margin-bottom: 30px;"></div>
 <!-- SHOWCASE-END -->
 
