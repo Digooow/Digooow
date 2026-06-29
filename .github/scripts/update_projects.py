@@ -8,6 +8,8 @@ TOPIC = "showcase"
 README_PATH = "README.md"
 TOKEN = os.getenv("GITHUB_TOKEN")
 
+YOUR_VERCEL_DOMAIN = "github-readme-stats-digooow1.vercel.app"
+
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
 def get_repos_with_topic():
@@ -26,21 +28,24 @@ def generate_cards(repos):
     cache_buster = int(time.time())
     lines = []
 
+    lines.append("<table>")
+
     for i in range(0, len(repos), 2):
         lines.append("  <tr>")
         repo1 = repos[i]
-        url1 = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo1}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
+        url1 = f"https://{YOUR_VERCEL_DOMAIN}/api/pin?username={USERNAME}&repo={repo1}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
         lines.append(f'    <td><a href="https://github.com/{USERNAME}/{repo1}"><img src="{url1}" /></a></td>')
 
         if i+1 < len(repos):
             repo2 = repos[i+1]
-            url2 = f"https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo2}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
+            url2 = f"https://{YOUR_VERCEL_DOMAIN}/api/pin?username={USERNAME}&repo={repo2}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
             lines.append(f'    <td><a href="https://github.com/{USERNAME}/{repo2}"><img src="{url2}" /></a></td>')
         else:
             lines.append('    <td></td>')
 
         lines.append("  </tr>")
 
+    lines.append("</table>")
     return "\n".join(lines)
 
 def update_readme(cards_html):
@@ -54,7 +59,7 @@ def update_readme(cards_html):
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-    print("✅ README atualizado com sucesso!")
+    print("README atualizado com sucesso!")
 
 if __name__ == "__main__":
     repos = get_repos_with_topic()
