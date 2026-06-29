@@ -98,10 +98,10 @@
 
 <p align="left">
   <a href="https://github.com/Digooow">
-    <img src="https://github-readme-stats-eta-brown-33.vercel.app/api?username=digooow&show_icons=true&theme=dark&locale=pt-br" width="49%" />
+    <img src="https://github-readme-stats-eta-brown-33.vercel.app/api?username=digooow&show_icons=true&theme=dark&locale=pt-br&v=2025" width="49%" />
   </a>
   <a href="https://github.com/Digooow">
-    <img src="https://github-readme-stats-eta-brown-33.vercel.app/api/top-langs?username=digooow&layout=compact&theme=dark&locale=pt-br" width="44%" />
+    <img src="https://github-readme-stats-eta-brown-33.vercel.app/api/top-langs?username=digooow&layout=compact&theme=dark&locale=pt-br&v=2025" width="44%" />
   </a>
 </p>
 
