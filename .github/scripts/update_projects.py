@@ -8,7 +8,7 @@ TOPIC = "showcase"
 README_PATH = "README.md"
 TOKEN = os.getenv("GITHUB_TOKEN")
 
-VERCEL_DOMAIN = "github-readme-stats-digooow1.vercel.app"
+VERCEL_DOMAIN = "github-readme-stats-tawny-vo2.vercel.app"
 
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
