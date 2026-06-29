@@ -84,12 +84,12 @@
 <!-- SHOWCASE-START -->
 <table>
   <tr>
-    <td><a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE"><img src="https://github-readme-stats-digooow1.vercel.app/api/pin?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1782771136" /></a></td>
-    <td><a href="https://github.com/Digooow/Atividades-Senac-Joinville"><img src="https://github-readme-stats-digooow1.vercel.app/api/pin?username=Digooow&repo=Atividades-Senac-Joinville&theme=dark&show_owner=true&description_lines_count=2&_=1782771136" /></a></td>
+    <td><a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE"><img src="https://github-readme-stats-digooow1.vercel.app/api/pin?username=digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2" /></a></td>
+    <td><a href="https://github.com/Digooow/Atividades-Senac-Joinville"><img src="https://github-readme-stats-digooow1.vercel.app/api/pin?username=digooow&repo=Atividades-Senac-Joinville&theme=dark&show_owner=true&description_lines_count=2" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Digooow/LeetCode"><img src="https://github-readme-stats-digooow1.vercel.app/api/pin?username=Digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2&_=1782771136" /></a></td>
-    <td><a href="https://github.com/Digooow/Desenvolvimento-Web"><img src="https://github-readme-stats-digooow1.vercel.app/api/pin?username=Digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2&_=1782771136" /></a></td>
+    <td><a href="https://github.com/Digooow/LeetCode"><img src="https://github-readme-stats-digooow1.vercel.app/api/pin?username=digooow&repo=LeetCode&theme=dark&show_owner=true&description_lines_count=2" /></a></td>
+    <td><a href="https://github.com/Digooow/Desenvolvimento-Web"><img src="https://github-readme-stats-digooow1.vercel.app/api/pin?username=digooow&repo=Desenvolvimento-Web&theme=dark&show_owner=true&description_lines_count=2" /></a></td>
   </tr>
 </table>
 <!-- SHOWCASE-END -->
@@ -100,10 +100,10 @@
 
 <p align="left">
   <a href="https://github.com/Digooow">
-    <img src="https://github-readme-stats.vercel.app/api?username=digooow&show_icons=true&theme=dark&locale=pt-br" width="49%" />
+    <img src="https://github-readme-stats-digooow1.vercel.app/api?username=digooow&show_icons=true&theme=dark&locale=pt-br" width="49%" />
   </a>
   <a href="https://github.com/Digooow">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=digooow&layout=compact&theme=dark&locale=pt-br" width="44%" />
+    <img src="https://github-readme-stats-digooow1.vercel.app/api/top-langs?username=digooow&layout=compact&theme=dark&locale=pt-br" width="44%" />
   </a>
 </p>
 
