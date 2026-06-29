@@ -14,7 +14,7 @@
 > - 💻 **2026:** Desenvolvimento FullStack – Digital Innovation One
 > - 🧩 **2026:** Desenvolvimento Web com IA – SENAC Joinville
 > - 🔒 **2026:** Introdução à Cibersegurança – CISCO
-> - 🌐 **2026:** HTML Essentials – CISCO
+> - 🌐 **2026:** HTML Essentials – CISCO 
 
 ---
 
