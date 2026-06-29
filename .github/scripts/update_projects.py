@@ -3,7 +3,7 @@ import re
 import requests
 import time
 
-USERNAME = "digooow"
+USERNAME_STATS = "digooow" 
 README_PATH = "README.md"
 TOPIC = "showcase"
 TOKEN = os.getenv("GITHUB_TOKEN")
@@ -13,7 +13,7 @@ YOUR_VERCEL_DOMAIN = "github-readme-stats-digooow1.vercel.app"
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
 def get_repos_with_topic():
-    url = f"https://github.com:{TOPIC}&sort=updated&order=desc"
+    url = "https://github.com"
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
         print(f"Erro ao buscar repositórios: {response.status_code}")
@@ -33,12 +33,12 @@ def generate_cards(repos):
     for i in range(0, len(repos), 2):
         lines.append("  <tr>")
         repo1 = repos[i]
-        url1 = f"https://{YOUR_VERCEL_DOMAIN}/api/pin?username={USERNAME}&repo={repo1}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
+        url1 = f"https://{YOUR_VERCEL_DOMAIN}/api/pin?username={USERNAME_STATS}&repo={repo1}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
         lines.append(f'    <td><a href="https://github.com{repo1}"><img src="{url1}" /></a></td>')
 
         if i+1 < len(repos):
             repo2 = repos[i+1]
-            url2 = f"https://{YOUR_VERCEL_DOMAIN}/api/pin?username={USERNAME}&repo={repo2}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
+            url2 = f"https://{YOUR_VERCEL_DOMAIN}/api/pin?username={USERNAME_STATS}&repo={repo2}&theme=dark&show_owner=true&description_lines_count=2&_={cache_buster}"
             lines.append(f'    <td><a href="https://github.com{repo2}"><img src="{url2}" /></a></td>')
         else:
             lines.append('    <td></td>')
