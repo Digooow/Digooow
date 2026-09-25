@@ -87,52 +87,6 @@
   </tr>
 </table>
 
----
-
-## 🧠 Competências desenvolvidas
-
-### 📊 Indicium Lighthouse – Data Analytics
-
-- Análise de dados, ciência de dados, engenharia de dados e Analytics Engineering
-- SQL avançado, modelagem dimensional e construção de Data Warehouses
-- Python para dados, APIs, JSON, Parquet, automação e manipulação de dados
-- Fundamentos de ETL/ELT, Data Lakes, cloud computing e bancos de dados
-- Modern Data Stack: dbt, Docker, Airflow, Snowflake e Prefect
-- Visualização de dados, BI, qualidade de código, documentação e Git/GitFlow
-- Inteligência artificial generativa, pensamento analítico e resolução de problemas
-- Comunicação, colaboração, mentalidade consultiva, gestão de projetos e inglês profissional
-
-### ⚡ IBM Confluent – Dados em tempo real para agentes de IA (DIO)
-
-- Arquitetura orientada a eventos e fundamentos do Apache Kafka
-- Tópicos, partições, chaves, ordenação, replicação e garantias de entrega
-- Confluent Cloud, clusters, ambientes e contas de serviço
-- Schema Registry, contratos de dados e governança de schemas
-- Kafka Connect, Debezium e Change Data Capture (CDC)
-- Apache Flink e Flink SQL para transformação e processamento de streams
-- Apache Iceberg e Tableflow para materialização de dados
-- Construção de pipelines end-to-end para agentes de IA e aplicações RAG
-- Observabilidade, consumer lag, custos, alta disponibilidade e recuperação de desastres
-
-### 📨 Apache Kafka – Confluent
-
-- Fundamentos de streaming de eventos e arquitetura distribuída
-- Criação e gerenciamento de tópicos, produtores e consumidores
-- Particionamento, grupos de consumidores, offsets e escalabilidade
-- Retenção, replicação, tolerância a falhas e processamento de mensagens
-- Integração de dados em tempo real com o ecossistema Kafka
-
-### 🛡️ Digital Safety and Security Awareness
-
-Issued by [Cisco](https://www.credly.com/org/cisco)
-
-- Identificação de ameaças digitais e práticas de segurança online
-- Proteção de informações pessoais e credenciais
-- Segurança de dispositivos e atualização de software
-- Privacidade, comportamento responsável e hábitos digitais saudáveis
-
----
-
 ## 🏅 Minhas Certificações (Credly)
 
 <!--START_SECTION:badges-->
@@ -153,11 +107,11 @@ Minha abordagem combina:
 
 
 
-| 🏛️ **Padrões arquiteturais** | Que organizam o código e separam responsabilidades. |
+| 🏛️ **Padrões arquiteturais** | Que organizam o código, separam responsabilidades e favorecem sistemas escaláveis. |
 | :--- | :--- |
-| 📋 **Metodologias ágeis** | Para entregar valor de forma contínua e colaborativa. | 
-| 🧪 **Práticas de qualidade** | Como testes automatizados e revisão de código. | 
-| 🔄 **Cultura DevOps** | Para integração, entrega e monitoramento contínuos. |
+| 📋 **Metodologias ágeis** | Para entregar valor de forma contínua, colaborativa e orientada a dados. |
+| 🧪 **Práticas de qualidade** | Como testes automatizados, revisão de código, validação de dados e documentação. |
+| 🔄 **Cultura DevOps e DataOps** | Para integração, entrega, orquestração e monitoramento contínuos. |
 
 
 ### 🧱 Arquitetura de Software
@@ -168,6 +122,9 @@ Minha abordagem combina:
 | **MVVM** | Model-View-ViewModel – amplamente usado com WPF e XAML para separar lógica de UI. |
 | **Clean Architecture** | Organização em camadas que isolam regras de negócio de detalhes externos. |
 | **Microsserviços** | Arquitetura distribuída que favorece escalabilidade e manutenção independente. |
+| **Arquitetura orientada a eventos** | Modelagem baseada em eventos, produtores, consumidores e processamento assíncrono. |
+| **Data Warehouse e Data Lake** | Estruturas para armazenar, organizar e disponibilizar dados para análise e inteligência de negócio. |
+| **Pipelines de dados em tempo real** | Integração de ingestão, processamento e disponibilização de dados para aplicações e agentes de IA. |
 
 ---
 
@@ -180,6 +137,11 @@ Minha abordagem combina:
 - **Design Patterns** – Soluções reutilizáveis para problemas comuns (Factory, Repository, etc.).
 - **DDD (Domain-Driven Design)** – Modelagem focada no domínio e na linguagem ubíqua.
 - **Clean Code** – Código legível, expressivo e de fácil manutenção.
+- **Separation of Concerns** – Divisão clara entre domínio, infraestrutura, apresentação e acesso a dados.
+- **Data Contracts** – Contratos versionados para garantir compatibilidade e governança dos dados.
+- **Schema Evolution** – Evolução controlada de schemas sem interromper produtores e consumidores.
+- **Security by Design** – Privacidade, proteção de credenciais e segurança incorporadas desde a modelagem.
+- **Segurança digital** – Identificação de ameaças, proteção de informações pessoais, dispositivos e hábitos digitais seguros.
  
 <br>
 
@@ -188,6 +150,9 @@ Minha abordagem combina:
 - **TDD (Test-Driven Development)** – Escrever testes antes do código para guiar o design.
 - **Testes Unitários** – Verificam o comportamento isolado de cada unidade de código.
 - **Testes de Integração** – Validam a interação entre componentes e serviços.
+- **Qualidade de dados** – Validação de consistência, completude, precisão e rastreabilidade das informações.
+- **Observabilidade** – Monitoramento de logs, métricas, alertas, pipelines e consumer lag.
+- **Revisão de código** – Colaboração para manter legibilidade, segurança e consistência técnica.
  
 <br>
 
@@ -197,6 +162,16 @@ Minha abordagem combina:
 - **Kanban** – Fluxo contínuo com foco em visualização e limitação de WIP.
 - **DevOps** – Cultura que integra desenvolvimento e operações para entregas mais rápidas.
 - **CI/CD** – Automação de builds, testes e deploys (GitHub Actions, Azure Pipelines).
+- **DataOps** – Automação e padronização do ciclo de vida dos dados.
+- **ETL/ELT** – Extração, transformação e carregamento de dados para análises e aplicações.
+- **Orquestração** – Organização de workflows e dependências com ferramentas como Airflow e Prefect.
+- **Cloud e containers** – Uso de Azure, Docker e serviços gerenciados para ambientes reproduzíveis e escaláveis.
+- **Git e GitFlow** – Versionamento, branches, colaboração e rastreabilidade das mudanças.
+- **Analytics Engineering** – Transformação, documentação e organização de dados confiáveis para consumo analítico.
+- **Modern Data Stack** – Uso de dbt, Snowflake, Docker e ferramentas de orquestração em fluxos de dados.
+- **Visualização e BI** – Comunicação de indicadores e descobertas por meio de análises e visualizações orientadas ao negócio.
+- **IA generativa** – Uso responsável de modelos generativos, pensamento crítico e preparação de dados para aplicações inteligentes.
+- **Colaboração e comunicação** – Trabalho em equipe, mentalidade consultiva, gestão de projetos e comunicação técnica em inglês.
  
 <br>
 
@@ -205,6 +180,13 @@ Minha abordagem combina:
 - **RESTful** – Design de APIs baseado em recursos e verbos HTTP.
 - **Swagger (OpenAPI)** – Documentação interativa e padronizada para APIs.
 - **Postman** – Ferramenta para testar, documentar e monitorar APIs.
+- **Apache Kafka** – Streaming distribuído com tópicos, partições, offsets, grupos de consumidores e replicação.
+- **Confluent Cloud** – Operação de clusters, contas de serviço e integrações de dados na nuvem.
+- **Kafka Connect e CDC** – Integração com sistemas externos e captura de alterações com Debezium.
+- **Schema Registry** – Governança e compatibilidade de schemas em fluxos de eventos.
+- **Apache Flink e Flink SQL** – Processamento e transformação de streams em tempo real.
+- **Apache Iceberg e Tableflow** – Organização e materialização de dados para análises e aplicações de IA.
+- **RAG e agentes de IA** – Alimentação de aplicações inteligentes com dados confiáveis e atualizados.
  
 
 ---
