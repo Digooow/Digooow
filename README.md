@@ -15,6 +15,10 @@
 > - 🧩 **2026:** Desenvolvimento Web com IA – SENAC Joinville
 > - 🔒 **2026:** Introdução à Cibersegurança – CISCO
 > - 🌐 **2026:** HTML Essentials – CISCO 
+> - 📊 **2026:** Curso preparatório Indicium Lighthouse – Data Analytics
+> - ⚡ **2026:** IBM Confluent – Dados em tempo real para agentes de IA – DIO
+> - 🛡️ **2026:** Digital Safety and Security Awareness – Cisco
+> - 📨 **2026:** Introduction to Apache Kafka – Confluent
 
 ---
 
@@ -66,6 +70,50 @@
     </td>
   </tr>
 </table>
+
+---
+
+## 🧠 Competências desenvolvidas
+
+### 📊 Indicium Lighthouse – Data Analytics
+
+- Análise de dados, ciência de dados, engenharia de dados e Analytics Engineering
+- SQL avançado, modelagem dimensional e construção de Data Warehouses
+- Python para dados, APIs, JSON, Parquet, automação e manipulação de dados
+- Fundamentos de ETL/ELT, Data Lakes, cloud computing e bancos de dados
+- Modern Data Stack: dbt, Docker, Airflow, Snowflake e Prefect
+- Visualização de dados, BI, qualidade de código, documentação e Git/GitFlow
+- Inteligência artificial generativa, pensamento analítico e resolução de problemas
+- Comunicação, colaboração, mentalidade consultiva, gestão de projetos e inglês profissional
+
+### ⚡ IBM Confluent – Dados em tempo real para agentes de IA (DIO)
+
+- Arquitetura orientada a eventos e fundamentos do Apache Kafka
+- Tópicos, partições, chaves, ordenação, replicação e garantias de entrega
+- Confluent Cloud, clusters, ambientes e contas de serviço
+- Schema Registry, contratos de dados e governança de schemas
+- Kafka Connect, Debezium e Change Data Capture (CDC)
+- Apache Flink e Flink SQL para transformação e processamento de streams
+- Apache Iceberg e Tableflow para materialização de dados
+- Construção de pipelines end-to-end para agentes de IA e aplicações RAG
+- Observabilidade, consumer lag, custos, alta disponibilidade e recuperação de desastres
+
+### 📨 Apache Kafka – Confluent
+
+- Fundamentos de streaming de eventos e arquitetura distribuída
+- Criação e gerenciamento de tópicos, produtores e consumidores
+- Particionamento, grupos de consumidores, offsets e escalabilidade
+- Retenção, replicação, tolerância a falhas e processamento de mensagens
+- Integração de dados em tempo real com o ecossistema Kafka
+
+### 🛡️ Digital Safety and Security Awareness
+
+Issued by [Cisco](https://www.credly.com/org/cisco)
+
+- Identificação de ameaças digitais e práticas de segurança online
+- Proteção de informações pessoais e credenciais
+- Segurança de dispositivos e atualização de software
+- Privacidade, comportamento responsável e hábitos digitais saudáveis
 
 ---
 
