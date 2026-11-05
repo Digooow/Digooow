@@ -199,11 +199,11 @@ Minha abordagem combina:
 
 <!-- SHOWCASE-START -->
   <tr>
-    <td><a href="https://github.com/Digooow/1-lh_nautical_csv"><img src="https://github-readme-stats-eta-brown-33.vercel.app/api/pin/?username=Digooow&repo=1-lh_nautical_csv&theme=dark&show_owner=true&description_lines_count=2&_=1793852744" /></a></td>
-    <td><a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE"><img src="https://github-readme-stats-eta-brown-33.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1793852744" /></a></td>
+    <td><a href="https://github.com/Digooow/Projeto-Integrador-SENAC-JOINVILLE"><img src="https://github-readme-stats-eta-brown-33.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador-SENAC-JOINVILLE&theme=dark&show_owner=true&description_lines_count=2&_=1793885840" /></a></td>
+    <td><a href="https://github.com/Digooow/1-lh_nautical_csv"><img src="https://github-readme-stats-eta-brown-33.vercel.app/api/pin/?username=Digooow&repo=1-lh_nautical_csv&theme=dark&show_owner=true&description_lines_count=2&_=1793885840" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Digooow/Projeto-Integrador2"><img src="https://github-readme-stats-eta-brown-33.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador2&theme=dark&show_owner=true&description_lines_count=2&_=1793852744" /></a></td>
+    <td><a href="https://github.com/Digooow/Projeto-Integrador2"><img src="https://github-readme-stats-eta-brown-33.vercel.app/api/pin/?username=Digooow&repo=Projeto-Integrador2&theme=dark&show_owner=true&description_lines_count=2&_=1793885840" /></a></td>
     <td></td>
   </tr>
 <!-- SHOWCASE-END -->
