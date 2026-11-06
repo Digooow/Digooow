@@ -10,16 +10,36 @@ TOKEN = os.getenv("GITHUB_TOKEN")
 
 VERCEL_DOMAIN = "github-readme-stats-eta-brown-33.vercel.app"
 
-headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
+headers = {
+    "Accept": "application/vnd.github+json",
+    **({"Authorization": f"token {TOKEN}"} if TOKEN else {})
+}
 
 def get_repos_with_topic():
-    url = f"https://api.github.com/search/repositories?q=user:{USERNAME}+topic:{TOPIC}&sort=updated&order=desc"
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        print(f"Erro ao buscar repositórios: {response.status_code}")
-        return []
-    data = response.json()
-    return [repo["name"] for repo in data.get("items", [])]
+    repos_encontrados = []
+    page = 1
+
+    while True:
+        url = (
+            f"https://api.github.com/users/{USERNAME}/repos"
+            f"?type=owner&sort=updated&direction=desc&per_page=100&page={page}"
+        )
+        response = requests.get(url, headers=headers)
+        if response.status_code != 200:
+            print(f"Erro ao buscar repositórios: {response.status_code}")
+            break
+
+        data = response.json()
+        if not data:
+            break
+
+        for repo in data:
+            if TOPIC in repo.get("topics", []):
+                repos_encontrados.append(repo["name"])
+
+        page += 1
+
+    return repos_encontrados
 
 def generate_cards(repos):
     if not repos:
