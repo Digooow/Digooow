@@ -101,7 +101,7 @@ Em vez de projetos apenas demonstrativos, estruturo meus repositórios aplicando
 
 ## 📌 Minha trajetória até aqui
 
-> - 🎓 **2026:** Curso de qualificação livre – Desenvolvedor de Sistemas – SENAC Joinville
+> - 🎓 **2026:** Qualificação Profissional em Desenvolvimento de Sistemas — Programa Jovem Programador (SEPROSC / Faculdade de Tecnologia SENAC Joinville)
 > - 🛡️ **2026:** Redes e Cibersegurança – SENAI & Cisco Networking Academy
 > - 🤖 **2026:** ChatGPT Prompt Engineering for Developers & Building Systems with LLMs – DeepLearning.AI (OpenAI)
 > - 💻 **2026:** XP Inc. - Full Stack Developer – Digital Innovation One
