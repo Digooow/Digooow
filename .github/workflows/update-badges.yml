@@ -2,7 +2,7 @@ name: Update Badges
 on:
   schedule:
     - cron: "0 2 * * *"
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   update-badges:
@@ -15,4 +15,32 @@ jobs:
         uses: pemtajo/badge-readme@main
         with:
           CREDLY_USER: digooow
-          NUMBER_LAST_BADGES: 0 
+          NUMBER_LAST_BADGES: 0
+          COMMIT_MESSAGE: "Atualiza badges Credly [skip ci]"
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Pull latest changes
+        run: git pull --rebase origin main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Format Credly badges with fixed size
+        run: python .github/scripts/format_badges.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "Padroniza tamanho das badges Credly [skip ci]"
+            git push origin main
+          fi

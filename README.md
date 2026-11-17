@@ -116,10 +116,12 @@ Em vez de projetos apenas demonstrativos, estruturo meus repositórios aplicando
 ## 🏅 Minhas Certificações (Credly)
 
 <!--START_SECTION:badges-->
-[![Digital Safety and Security Awareness](https://images.credly.com/size/80x80/images/92d90000-9c96-4dbd-a37d-8c47bf338bca/blob)](https://www.credly.com/badges/7b4faea2-f5d9-483e-9224-f75da17038a2)
-[![HTML Essentials](https://images.credly.com/size/80x80/images/b1c17d0c-e76b-45fc-9b28-87b01ae1caf3/blob)](https://www.credly.com/badges/84528667-914b-4fb0-85dd-b6221164500d)
-[![Cisco Networking Academy Learn-A-Thon 2026](https://images.credly.com/size/80x80/images/7bf55491-f0df-488f-84bf-4d51ada45316/blob)](https://www.credly.com/badges/8ad6ed61-1989-440c-be4b-b4035cbef9f0)
-[![Introduction to Cybersecurity](https://images.credly.com/size/80x80/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png)](https://www.credly.com/badges/20513698-2658-4c08-a75c-37949de58a86)
+<p align="left">
+  <a href="https://www.credly.com/badges/7b4faea2-f5d9-483e-9224-f75da17038a2"><img src="https://images.credly.com/size/80x80/images/92d90000-9c96-4dbd-a37d-8c47bf338bca/blob" alt="Digital Safety and Security Awareness" width="80" /></a>
+  <a href="https://www.credly.com/badges/84528667-914b-4fb0-85dd-b6221164500d"><img src="https://images.credly.com/size/80x80/images/b1c17d0c-e76b-45fc-9b28-87b01ae1caf3/blob" alt="HTML Essentials" width="80" /></a>
+  <a href="https://www.credly.com/badges/8ad6ed61-1989-440c-be4b-b4035cbef9f0"><img src="https://images.credly.com/size/80x80/images/7bf55491-f0df-488f-84bf-4d51ada45316/blob" alt="Cisco Networking Academy Learn-A-Thon 2026" width="80" /></a>
+  <a href="https://www.credly.com/badges/20513698-2658-4c08-a75c-37949de58a86"><img src="https://images.credly.com/size/80x80/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Introduction to Cybersecurity" width="80" /></a>
+</p>
 <!--END_SECTION:badges-->
 
 ---
