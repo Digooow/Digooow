@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 README_PATH = Path("README.md")
 START_MARKER = "<!--START_SECTION:badges-->"
 END_MARKER = "<!--END_SECTION:badges-->"
-BADGE_WIDTH_PX = 80
+BADGE_WIDTH_PX = 100
 
 SECTION_PATTERN = re.compile(
     rf"({re.escape(START_MARKER)})(.*?)({re.escape(END_MARKER)})",
@@ -19,6 +19,12 @@ SECTION_PATTERN = re.compile(
 
 MARKDOWN_BADGE_PATTERN = re.compile(
     r"^\[!\[(?P<title>.+?)\]\((?P<img>https?://[^\s)]+)\)\]\((?P<href>https?://[^\s)]+)\)$"
+)
+
+HTML_BADGE_PATTERN = re.compile(
+    r'^<a\s+href="(?P<href>https?://[^"]+)"\s*>'
+    r'<img\s+src="(?P<img>https?://[^"]+)"\s+'
+    r'alt="(?P<title>[^"]*)"\s+width="\d+"\s*/?></a>$'
 )
 
 
@@ -35,39 +41,37 @@ def is_safe_http_url(url: str) -> bool:
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
 
 
-def parse_markdown_badges(section_body: str) -> list[Badge] | None:
-    """Parse Markdown badge lines; return None if section is already HTML-formatted."""
-    lines = [line.strip() for line in section_body.splitlines() if line.strip()]
+def parse_badges(section_body: str) -> list[Badge] | None:
+    """Parse Markdown or existing HTML badge lines inside the Credly section."""
+    lines = [
+        line.strip()
+        for line in section_body.splitlines()
+        if line.strip() and line.strip() not in {'<p align="left">', "</p>"}
+    ]
     if not lines:
         return None
 
     badges: list[Badge] = []
-    has_markdown = False
-    has_non_markdown = False
-
     for line in lines:
-        match = MARKDOWN_BADGE_PATTERN.match(line)
-        if not match:
-            has_non_markdown = True
-            continue
-
-        has_markdown = True
-        raw_title = match.group("title").replace('\\"', '"')
-        img_url = match.group("img")
-        href_url = match.group("href")
+        md_match = MARKDOWN_BADGE_PATTERN.match(line)
+        if md_match:
+            raw_title = md_match.group("title").replace('\\"', '"')
+            img_url = md_match.group("img")
+            href_url = md_match.group("href")
+        else:
+            html_match = HTML_BADGE_PATTERN.match(line)
+            if not html_match:
+                raise ValueError(
+                    f"Linha inesperada dentro da seção de badges: {line}"
+                )
+            raw_title = html.unescape(html_match.group("title"))
+            img_url = html.unescape(html_match.group("img"))
+            href_url = html.unescape(html_match.group("href"))
 
         if not (is_safe_http_url(img_url) and is_safe_http_url(href_url)):
             raise ValueError(f"URL inválida detectada na badge: {line}")
 
         badges.append(Badge(title=raw_title, img_url=img_url, href_url=href_url))
-
-    if not has_markdown:
-        return None
-
-    if has_non_markdown:
-        raise ValueError(
-            "Conteúdo misto inesperado dentro da seção de badges; abortando para evitar perda de dados."
-        )
 
     return badges
 
@@ -87,14 +91,14 @@ def render_badges_html(badges: list[Badge], newline: str) -> str:
 
 
 def format_readme_content(content: str) -> tuple[str, bool]:
-    """Convert Markdown Credly badges in README content to fixed-width HTML."""
+    """Convert or normalize Credly badges in README content to fixed-width HTML."""
     match = SECTION_PATTERN.search(content)
     if not match:
         raise ValueError(f"Marcadores {START_MARKER} / {END_MARKER} não encontrados.")
 
     newline = "\r\n" if "\r\n" in content else "\n"
     section_body = match.group(2)
-    badges = parse_markdown_badges(section_body)
+    badges = parse_badges(section_body)
     if badges is None:
         return content, False
 
@@ -119,13 +123,13 @@ def main() -> int:
         return 1
 
     if not changed:
-        print("ℹ️ Badges já estão formatadas com tamanho fixo.")
+        print(f"Badges já estão formatadas com width={BADGE_WIDTH_PX}.")
         return 0
 
     with README_PATH.open("w", encoding="utf-8", newline="") as file:
         file.write(updated_content)
 
-    print("✅ Badges Credly convertidas para HTML com width=80.")
+    print(f"Badges Credly atualizadas para HTML com width={BADGE_WIDTH_PX}.")
     return 0
 
 
